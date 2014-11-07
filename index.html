@@ -14,15 +14,23 @@
 
 <body>
 
-<div data-role="page">
+<div data-role="page" id="page1">
         
  	<div data-role="header">Header</div>
         
   	<div role="main" class="ui-content">
-    
-  		
-
-    </div>
+		<label for="name1">Name</label>
+			<input type="text" name="name1" id="nameInput" data-clear-btn="true" value="" placeholder="Enter your name" />
+		<label for="name1">Email</label>
+			<input type="email" name="email1"id="emailInput" data-clear-btn="true" value="" placeholder="Enter your email" />
+		<label for="name1">Telephone</label>
+			<input type="tel" name="tel1" id="teleInput" data-clear-btn="true" value="" placeholder="Enter your Telephone Number" />
+		<label for="name1">Date of Birth</label>
+			<input type="date" name="dateofbirth1" id="dobInput" data-clear-btn="true" value="" placeholder="Enter your Date of Birth" />
+		<label for="name1">Password</label>
+			<input type="password" name="password1" id="passInput" data-clear-btn="true" value="" placeholder="Enter your Password" />
+    <button id="submit">Submit Form</button>
+	</div>
         
     <div data-role="footer">Footer</div>
 	</div>
